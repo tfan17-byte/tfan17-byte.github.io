@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Academic Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f7f7f7;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 760px;
+      margin: 0 auto;
+      color: #e5e7eb;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      list-style: none;
+      padding: 14px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #1f2937;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 32px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 24px;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    h2 {
+      color: #111827;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      color: #374151;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin-left: 22px;
+      margin-bottom: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e5e7eb;
+      color: #374151;
+      padding: 5px 10px;
+      border-radius: 999px;
+      margin: 4px 4px 4px 0;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>
+      Undergraduate researcher in Chemistry at UC Berkeley interested in DNA nanotechnology,
+      molecular robotics, programmable nanomaterials, bioengineering, and computation.
+    </p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#presentations">Presentations</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am an undergraduate student in Chemistry at the University of California, Berkeley.
+        My research interests lie at the intersection of chemistry, DNA origami, nanomaterials,
+        molecular robotics, bioengineering, and computational design.
+      </p>
+      <p>
+        I am interested in using DNA as a programmable material to build nanoscale structures
+        and systems with potential applications in self-assembly, biosensing, biomolecular design,
+        and future molecular machines.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>DNA Origami and Programmable Nanomaterials</h3>
+      <p>
+        This project explores how DNA origami can be used as a programmable platform for
+        constructing nanoscale structures. My work focuses on design principles, assembly behavior,
+        and strategies for improving structural yield and scalability.
+      </p>
+      <ul>
+        <li>Designed and analyzed DNA-based nanostructures.</li>
+        <li>Studied self-assembly behavior and design constraints.</li>
+        <li>Connected molecular design with broader applications in nanomaterials and bioengineering.</li>
+      </ul>
+
+      <h3>Molecular Robotics and Self-Assembly</h3>
+      <p>
+        I am interested in molecular systems that can perform controlled nanoscale functions,
+        including actuation, sensing, assembly, and information-guided behavior.
+      </p>
+
+      <h3>Computational Design of Molecular Systems</h3>
+      <p>
+        I am also interested in computational approaches for molecular design, including modeling,
+        simulation, optimization, and potentially AI-guided design of DNA-based materials.
+      </p>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <p>
+        You can download my full CV here. Replace <strong>cv.pdf</strong> with your actual CV file name.
+      </p>
+      <a class="button" href="cv.pdf" target="_blank">Download CV</a>
+
+      <h3>Education</h3>
+      <ul>
+        <li>B.A./B.S. in Chemistry, University of California, Berkeley, Expected Graduation Year</li>
+      </ul>
+
+      <h3>Research Experience</h3>
+      <ul>
+        <li>Undergraduate Researcher, Lab Name, UC Berkeley, Year–Present</li>
+        <li>Research project focused on DNA origami, nanomaterials, and molecular design.</li>
+      </ul>
+
+      <h3>Awards and Honors</h3>
+      <ul>
+        <li>Add scholarships, honors, fellowships, or academic awards here.</li>
+      </ul>
+    </section>
+
+    <section id="presentations">
+      <h2>Publications & Presentations</h2>
+      <ul>
+        <li>Poster Title, Conference or Symposium Name, Year.</li>
+        <li>Presentation Title, Course/Lab/Research Group, Year.</li>
+        <li>Manuscript or preprint information, if available.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        <span class="tag">DNA Origami</span>
+        <span class="tag">Nanomaterials</span>
+        <span class="tag">Molecular Robotics</span>
+        <span class="tag">Bioengineering</span>
+        <span class="tag">Python</span>
+        <span class="tag">Molecular Design</span>
+        <span class="tag">Data Analysis</span>
+        <span class="tag">Scientific Writing</span>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@berkeley.edu">your.email@berkeley.edu</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Your Name. Last updated May 2026.</p>
+  </footer>
+</body>
+</html>
